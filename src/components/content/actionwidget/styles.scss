@@ -1,0 +1,25 @@
+@import '../../../theme/styles.scss';
+
+.action-widget {
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid $BORDERS;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: nowrap !important;
+    flex-direction: row;
+    .action-item {
+        height: 30px;
+        border-bottom: 1px solid $BORDERS;
+    }
+    .text-action {
+        color: $LINK;
+        font-size: 12px;
+    }
+    .action-link {
+        height: 25px;
+        background-color: #FaFaFa;
+    }
+    .action-item {
+        height: 30px;
+    }
+}

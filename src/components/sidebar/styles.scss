@@ -1,0 +1,18 @@
+@import '../../theme/styles.scss';
+.sidebar-component {
+  .sidebar-title {
+      color: $TEXT-TITLE;
+      padding: 8px;
+      font-size: 14px;
+  }
+  .icon {
+      font-size: 16px !important;
+      color: $PRIMARY;
+      margin: 0px 8px;
+  }
+  .sidebar-option {
+      font-size: 14px;
+      color: $TEXT-TITLE;
+      cursor: pointer;
+  }
+}

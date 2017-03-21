@@ -1,0 +1,71 @@
+{
+   "userInfo" : {
+      "firstName": "Kathrin",
+      "lastName": "Doe",
+      "customerSince": "January 28, 2008",
+      "address": "Kathrinaburg, 28 Moscow"
+   },
+   "serviceDescription": {
+      "name": "Prepaid gold banner",
+      "options": [
+        "Show more offers", "Go to shop"
+      ]
+   },
+   "notifications": [
+     {
+       "items": 2,
+       "description": "Pending basket item with 3 items"
+     }, {
+        "items": 1,
+        "description": "Open invoice, amount $37, due"
+     }, {
+        "items": 2,
+        "description": "New people connection request"
+     }
+   ],
+   "actions": [
+     {
+       "title": "Transfer balance"
+     }, {
+        "title": "Get support"
+     }, {
+        "title": "Add service"
+     }, {
+        "title": "Top-up"
+     }, {
+        "title": "Change sim"
+     }, {
+        "title": "Action 2"
+     }
+   ],
+   "balance": {
+      "package": "Prepaid silver",
+      "allowances": [
+        {
+          "total": 100,
+          "remaining": 0,
+          "unit": "MB",
+          "type": "DATA",
+          "over": "Domestic"
+        }, {
+          "total": 50,
+          "remaining": 20,
+          "unit": "SMS",
+          "type": "SMS",
+          "over": "Domestic"
+        }, {
+          "total": 200,
+          "remaining": 43,
+          "unit": "MIN",
+          "type": "Call",
+          "over": "Domestic"
+        }
+      ],
+      "subscriptions": ["Shopping list", "Beacon", "Call forwarding", "Notify"],
+      "devices": [
+        {
+          "name": "Galaxy S6 EDGE"
+        }
+      ]
+   }
+}

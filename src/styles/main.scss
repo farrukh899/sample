@@ -1,0 +1,94 @@
+@import "../theme/styles.scss";
+body {
+    background-color: $BACKGROUND;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+$padding: 8px;
+.flex100 { flex: 1 auto; }
+.flex95 { flex: 0.95 auto; }
+.flex90 { flex: 0.90 auto; }
+.flex85 { flex: 0.85 auto; }
+.flex80 { flex: 0.80 auto; }
+.flex75 { flex: 0.75 auto; }
+.flex70 { flex: 0.70 auto; }
+.flex65 { flex: 0.65 auto; }
+.flex60 { flex: 0.60 auto; }
+.flex58 { flex: 0.58 auto; }
+.flex55 { flex: 0.55 auto; }
+.flex50 { flex: 0.50 auto; }
+.flex45 { flex: 0.45 auto; }
+.flex40 { flex: 0.40 auto; }
+.flex35 { flex: 0.35 auto; }
+.flex33 { flex: 0.333 auto; }
+.flex30 { flex: 0.30 auto; }
+.flex25 { flex: 0.25 auto; }
+.flex23 { flex: 0.23 auto; }
+.flex20 { flex: 0.20 auto; }
+.flex15 { flex: 0.15 auto; }
+.flex10 { flex: 0.10 auto; }
+.flex5 { flex: 0.05 auto; }
+.alignStartStart { justify-content: flex-start; align-items: flex-start; }
+.alignStartEnd { justify-content: flex-start; align-items: flex-end; }
+.alignStartCenter { justify-content: flex-start; align-items: center; }
+.alignEndStart { justify-content: flex-end; align-items: flex-start; }
+.alignCenterStart { justify-content: center; align-items: flex-start; }
+.alignCenterEnd { justify-content: center; align-items: flex-end; }
+.alignCenterCenter { justify-content: center; align-items: center; }
+.alignEndEnd { justify-content: flex-end; align-items: flex-end; }
+.alignEndCenter { justify-content: flex-end; align-items: center; }
+.alignSpacebetweenCenter { justify-content: space-between; align-items: center;}
+.layout-wrap { flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+.layout-column {flex-direction: column; display:flex; }
+.layout-row {
+  display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+ }
+.layout-padding { padding: $padding }
+
+.seperator {
+    height: 1px;
+    min-height: 1px;
+    margin: 8px;
+    width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ececec+49,000000+100&0+0,0+49,1+49,0+100 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(236,236,236,1) 49%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(236,236,236,1) 49%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(236,236,236,1) 49%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.emphasis-text {
+    color: $PRIMARY;
+    font-size: 24px;
+}
+
+.highlighted-text {
+    color: $TEXT-TITLE;
+    font-size: 24px;
+}
+.text-content-light {
+    color: #A6A6A6;
+    font-size: 14px;
+}
+.text-content-bold {
+    color: $TEXT-TITLE;
+    font-size: 14px;
+}

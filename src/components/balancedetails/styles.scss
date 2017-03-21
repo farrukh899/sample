@@ -1,0 +1,49 @@
+@import '../../theme/styles.scss';
+
+.balance-component {
+
+    .balance-card {
+      border: 1px solid $BORDER-DARK;
+      margin: 8px 0px;
+      display:block;
+    }
+    .helpers {
+        margin-top: 12px;
+        color: $LINK;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .allowance-container {
+      flex-flow: row wrap !important;
+      .allowance-item {
+        border: 1px solid $BORDER-DARK;
+        color: $TEXT-TITLE;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+    }
+    .card-container {
+        min-height: 70px;
+        position: relative;
+    }
+    .device-container {
+      border: 1px solid $BORDER-DARK;
+      border-left: 4px solid $LINK;
+      .device-name {
+        color: $LINK;
+        font-size: 12px;
+      }
+    }
+    .heading {
+        text-transform: uppercase;
+        color: $TEXT-TITLE;
+        font-size: 12px;
+        margin: 8px 0px;
+    }
+    .detail-info {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        color: $TEXT-TITLE;
+    }
+}

@@ -1,0 +1,18 @@
+@import '../../../theme/styles.scss';
+
+.description-component {
+    border: 1px solid $BORDERS;
+    min-height: 58px;
+    margin-top: 8px;
+    background-color: #FAFAFA;
+    .sub-card {
+        background-color: #FFFFFF;
+        border-left: 1px solid $BORDERS;
+        height: 58px;
+    }
+    .text-link {
+        color: $LINK;
+        text-align: center;
+        font-size: 14px;
+    }
+}

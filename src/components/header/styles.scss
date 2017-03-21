@@ -1,0 +1,13 @@
+@import '../../theme/styles.scss';
+
+.header-component {
+    height: 48px;
+    background-color: $PRIMARY;
+    font-weight: 300;
+    .logo-container {
+        color: #FFFFFF;
+    }
+    .logo {
+        background-image: url('../../res/logo.png');
+    }
+}

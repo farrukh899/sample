@@ -1,0 +1,11 @@
+@import '../../../theme/styles.scss';
+
+.info-component {
+    .user-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $BORDERS;
+        margin-right: 8px;
+    }
+}

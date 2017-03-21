@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Overview",
+    "icon": "home"
+  }, {
+    "title": "Offers",
+    "icon": "card_giftcard"
+  }, {
+    "title": "Things",
+    "icon": "phone"
+  }, {
+    "title": "People",
+    "icon": "people"
+  }, {
+    "title": "Orders",
+    "icon": "list"
+  }, {
+    "title": "Financials",
+    "icon": "receipt"
+  }, {
+    "title": "Supprt",
+    "icon": "help"
+  }, {
+    "title": "Notifications",
+    "icon": "flag"
+  }
+]

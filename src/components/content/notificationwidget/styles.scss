@@ -1,0 +1,30 @@
+@import '../../../theme/styles.scss';
+
+
+.notifications-widget {
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid $BORDERS;
+
+    .notification-highlight {
+        background-color: $WARN;
+        height: 20px;
+        width: 20px;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+    .text-notification {
+        color: $LINK;
+        font-size: 12px;
+    }
+    .goto-link {
+        height: 25px;
+        background-color: #FaFaFa;
+    }
+    .notification-item {
+        border-bottom: 1px solid $BORDERS;
+        height: 30px;
+    }
+}

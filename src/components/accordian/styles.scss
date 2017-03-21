@@ -1,0 +1,43 @@
+@import '../../theme/styles.scss';
+
+.accordian-component {
+    background-color: white;
+    .accordian-content {
+        background-color: $BACKGROUND;
+    }
+    .accordian-toolbar {
+        height: 25px;
+        background-color: white;
+        border: 1px solid $BORDERS;
+        border-left: 4px solid $BORDERS;
+    }
+    .accordian-active {
+        border-left-color: $AFFIRM;
+    }
+    .icon-container {
+        width:30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $LINK;
+        .material-icons {
+            color: white;
+            font-size: 18px;
+        }
+    }
+    .service-type {
+        color:  $LINK;
+        font-size: 14px;
+    }
+    .service-number {
+        color: $TEXT-TITLE;
+        font-size: 14px;
+    }
+    .text-emphasize-small {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .text-emphasize-large {
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+}
